@@ -14,6 +14,10 @@ const tests = [
     {
         test : 'nested loops',
         file : 'nestedLoop'
+    },
+    {
+        test : 'four nested loops',
+        file : 'fourNestedLoops'
     }
 ]
 
