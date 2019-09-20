@@ -1,4 +1,7 @@
 # forEach-to-for
+
+![Travis (.com)](https://img.shields.io/travis/com/Marvin9/forEach-to-for)
+
 🤖 Converte thousand of nested, complex forEach loops to for loops for performance enhancement
 
 Clone repo.
