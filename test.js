@@ -2,9 +2,6 @@ const array = [1, 2, 3, [3, 5]];
 array.forEach(function(element, index) {console.log(element)});
 array.forEach((element, index) => {
     console.log(element)
-  	element.forEach(ele => {
-    	console.log(ele)
-    })
 })
 
 function coolFunction(arr) {
@@ -15,3 +12,9 @@ function coolFunction(arr) {
         console.log(element)
     })
 }
+
+const json = {a : 1, b : 2}
+
+Object.keys(json).forEach(ele => {
+    console.log(json[ele])
+})

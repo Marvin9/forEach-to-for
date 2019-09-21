@@ -12,11 +12,14 @@ npm install
 
 ## Steps
 
-1. In index.js replace file destination in fs.readFileSync to your file which you want to convert.
-2. ``` node index.js ```
-3. Get converted code in terminal
+1. ```
+    node index.js /path/to/original/file.js /output/path/js.js 
+    ```
 
-## Notes
+## Example
 
-### CLI conversion in next version.
+1. ```
+    node index.js ./test.js ./exampleOpt.js
+    ```
+
 🧐
