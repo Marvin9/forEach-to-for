@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const exec = require('child_process').execSync
 
 const CON = require('./lib/converter')
 
@@ -23,6 +24,12 @@ try {
 
                 if(err) throw err 
                 console.log(`Output : ${outputPath}`)
+
+                if(process.argv.indexOf('--execute') !== -1) {
+                    let output = exec(`node ${outputPath}`).toString()
+                    console.log(`---------------------- OUTPUT --------------------`)
+                    console.log(output)
+                }
 
             })
 
