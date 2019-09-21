@@ -6,14 +6,13 @@ const exec = require('child_process').execSync
 const CON = require('../lib/converter')
 
 
-/*
-*   @params : String
-*   @return : Object
-*   {
-*       output : String,
-*       outputShouldBe : String
-*   }
-*/
+
+/**
+ * 
+ * @param {String} filename - input test's filename, eg. input.js -> filename should be "input"
+ * @returns {object} - Object.output {String} 
+ *                     Object.outputShouldBe {String}
+ */
 
 async function testObject(filename) {
     return new Promise((resolve, reject) => {
