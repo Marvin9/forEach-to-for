@@ -1,4 +1,9 @@
-const arr = [[1, 2], [3, 4], [5, 6]]
+//This output file is generated in runtime while running 'npm run test'
+const arr = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+]
 
 let totalSum = 0
 

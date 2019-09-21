@@ -34,11 +34,7 @@ for(let i = 0; i < tests.length; i++) {
 
         // object with hardcoded output and output with converter
             let {output, outputShouldBe} = await testObject(filename)
-            
-            // remove space and next line because intendation is not focused in this test
-            output = output.replace(/[ |\r?\n]/g, '')
-            outputShouldBe = outputShouldBe.replace(/[ |\r?\n]/g, '')
-
+        
             // compare
             expect(output).toBe(outputShouldBe)
 

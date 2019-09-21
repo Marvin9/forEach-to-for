@@ -1,3 +1,4 @@
+//This output file is generated in runtime while running 'npm run test'
 const arr = [1, 2, 3]
 
 function cool(arr) {
