@@ -5,6 +5,7 @@ function cool(arr) {
     let sum = 0
     for (let i = 0; i < arr.length; i++) {
         let element = arr[i];
+        if (element === undefined) continue;
         sum += element
     }
     return sum

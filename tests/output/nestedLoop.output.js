@@ -9,10 +9,12 @@ let totalSum = 0
 
 for (let i = 0; i < arr.length; i++) {
     let element = arr[i];
+    if (element === undefined) continue;
     let individualSum = 0
 
     for (let i = 0; i < element.length; i++) {
         let ele = element[i];
+        if (ele === undefined) continue;
         individualSum += ele
     }
 
