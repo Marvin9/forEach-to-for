@@ -18,6 +18,5 @@ npm install
 
 ## Notes
 
-### It supports only one argumented forEach. More in next version
 ### CLI conversion in next version.
 🧐
