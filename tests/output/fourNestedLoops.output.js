@@ -4,20 +4,20 @@ const arr2 = [6, 7, 8, 9, 0]
 const arr3 = [1, 2, 3, 4, 5]
 const arr4 = [6, 7, 8, 9, 0]
 
-for (let i = 0; i < arr1.length; i++) {
-    let element = arr1[i];
+for (let ___a___ = 0; ___a___ < arr1.length; ___a___++) {
+    let element = arr1[___a___];
     if (element === undefined) continue;
     console.log(element)
-    for (let i = 0; i < arr2.length; i++) {
-        let element = arr2[i];
+    for (let ___b___ = 0; ___b___ < arr2.length; ___b___++) {
+        let element = arr2[___b___];
         if (element === undefined) continue;
         console.log(element)
-        for (let i = 0; i < arr3.length; i++) {
-            let element = arr3[i];
+        for (let ___c___ = 0; ___c___ < arr3.length; ___c___++) {
+            let element = arr3[___c___];
             if (element === undefined) continue;
             console.log(element)
-            for (let i = 0; i < arr4.length; i++) {
-                let element = arr4[i];
+            for (let ___d___ = 0; ___d___ < arr4.length; ___d___++) {
+                let element = arr4[___d___];
                 if (element === undefined) continue;
                 console.log(element)
             }

@@ -7,13 +7,13 @@ const arr = [
 
 let totalSum = 0
 
-for (let i = 0; i < arr.length; i++) {
-    let element = arr[i];
+for (let ___a___ = 0; ___a___ < arr.length; ___a___++) {
+    let element = arr[___a___];
     if (element === undefined) continue;
     let individualSum = 0
 
-    for (let i = 0; i < element.length; i++) {
-        let ele = element[i];
+    for (let ___b___ = 0; ___b___ < element.length; ___b___++) {
+        let ele = element[___b___];
         if (ele === undefined) continue;
         individualSum += ele
     }

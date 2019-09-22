@@ -19,9 +19,9 @@ const object = {
 for (const element in object) {
     for (const childElement in object[element]) {
         if (typeof object[element][childElement] === "object")
-            Object.keys(object[element][childElement]).forEach(grandChildEle => {
+            for (const grandChildEle in object[element][childElement]) {
                 console.log(object[element][childElement][grandChildEle])
-            })
+            }
         else {
             console.log(object[element][childElement])
         }
