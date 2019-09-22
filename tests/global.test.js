@@ -18,6 +18,14 @@ const tests = [
     {
         test : 'four nested loops',
         file : 'fourNestedLoops'
+    },
+    {
+        test : 'loop for Object',
+        file : 'forEachObject'
+    },
+    {
+        test : 'nested Object loops',
+        file : 'nestedObject'
     }
 ]
 
