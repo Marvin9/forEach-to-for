@@ -23,7 +23,7 @@ try {
             fs.writeFile(outputPath, convertedCode, err => {
 
                 if(err) throw err 
-                console.log(`Output : ${outputPath}`)
+                console.log(`\x1b[46mOutput\x1b[0m : ${outputPath}`)
 
                 if(process.argv.indexOf('--execute') !== -1) {
                     let output = exec(`node ${outputPath}`).toString()
