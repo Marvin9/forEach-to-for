@@ -6,8 +6,17 @@ const CON = require('./lib/converter')
 
 try {
         
-    const entryFile = process.argv[2]
-    const outputFile = process.argv[3]
+    const entryFile = process.argv[2] || null
+    const outputFile = process.argv[3] || null
+
+    if(entryFile === null || outputFile === null) {
+        const command = `\x1b[36mnode index /path/to/entry.js /path/to/output.js\x1b[0m`
+        if(entryFile === null) {
+            throw new Error("Entry file must be defined -> " + command)
+        } else {
+            throw new Error("Output file must be defined -> " + command)
+        }
+    }
 
     const entryPath = path.resolve(__dirname, entryFile)
     const outputPath = path.resolve(__dirname, outputFile)
