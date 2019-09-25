@@ -26,6 +26,14 @@ const tests = [
     {
         test : 'nested Object loops',
         file : 'nestedObject'
+    },
+    {
+        test : 'two arguments in forEach loop',
+        file : 'twoArguments'
+    },
+    {
+        test : 'three arguments in forEach loop',
+        file : 'threeArguments'
     }
 ]
 
