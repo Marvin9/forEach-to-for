@@ -5,6 +5,9 @@
   "scripts": {
     "test": "jest tests/global.test.js"
   },
+  "bin": {
+    "forify": "./index.js"
+  },
   "keywords": [],
   "author": "mayursiinh",
   "license": "MIT",

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require('fs')
 const path = require('path')
 const exec = require('child_process').execSync
@@ -18,8 +19,8 @@ try {
         }
     }
 
-    const entryPath = path.resolve(__dirname, entryFile)
-    const outputPath = path.resolve(__dirname, outputFile)
+    const entryPath = entryFile
+    const outputPath = outputFile
 
 
     const code = fs.readFileSync(entryPath, 'utf8')
