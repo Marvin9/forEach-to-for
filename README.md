@@ -10,16 +10,21 @@ Clone repo.
 npm install
 ```
 
+```
+npm link
+```
+
+
 ## Steps
 
 1. ```
-    node index.js /path/to/original/file.js /output/path/js.js 
+    forify /path/to/original/file.js /output/path/js.js 
     ```
 
 ## Example
 
 1. ```
-    node index.js ./test.js ./exampleOpt.js
+    forify ./test.js ./exampleOpt.js
     ```
 
 🧐
